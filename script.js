@@ -12,7 +12,7 @@ const booking = document.getElementById("booking");
 const totalCost = document.getElementById("totalCost");
 
 //funktionen körs när sidan laddas in
-//kontrollerar först vilken rumstyp man valt för att sedan andropa funktionen checkIfFamilyRoom och funiktionen totalPriceCalculator
+//kontrollerar först vilken radioknapp som är ifylld för att sedan andropa funktionen checkIfFamilyRoom och funiktionen totalPriceCalculator
 //övervakar när man ändrar antalet nätter och anropar funktionen totalPriceCalculator isåfall
 //anropar totalPriceCalculator oavsett
 //övervakar när man fyller i symboler på inputen city och ändrar till stora bokstäver
